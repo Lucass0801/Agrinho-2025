@@ -1,16 +1,23 @@
+
+### 2. `styles.css`
+
+Aqui está uma versão mais colorida do CSS:
+
+```css
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff; /* Azul claro */
 }
 
 header {
-    background: #4CAF50;
-    color: rgb(31, 109, 173);
-    padding: 10px 0;
+    background: linear-gradient(135deg, #4CAF50, #66BB6A); /* Gradiente verde */
+    color: white;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -24,25 +31,49 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(53, 211, 132);
+    color: white;
     text-decoration: none;
+    background: #388E3C; /* Verde escuro */
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #2C6A2D; /* Verde mais escuro */
 }
 
 main {
     padding: 20px;
+    max-width: 800px;
+    margin: auto;
 }
 
 section {
     margin: 20px 0;
-    padding: 10px;
-    border: 1px solid #eb2323;
-    background-color: rgb(29, 170, 47);
+    padding: 15px;
     border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Fundo branco */
+    border-left: 5px solid #FF9800; /* Lado esquerdo laranja */
+}
+
+h2 {
+    color: #FF5722; /* Título laranja */
+}
+
+.imagem-section {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background: #4CAF50;
-    color: rgb(33, 126, 163);
+    padding: 15px;
+    background: #4CAF50; /* Verde */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
